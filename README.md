@@ -1,2 +1,2 @@
 # geekbrains-javascript1
-Домашние задания для курса GeekBrains "Основы языка Javascript"
+Домашние задания для курса GeekBrains "Javascript"
