@@ -1,8 +1,10 @@
-function f(n) {
-    res = function(){};
+'use strict';
 
-    div3 = n%3 === 0;
-    div5 = n%5 === 0;
+function f(n) {
+    var res = function(){};
+
+    var div3 = n%3 === 0;
+    var div5 = n%5 === 0;
 
     if (div3 & div5) {
         res = function() {console.log('FizzBuzz');};
@@ -19,6 +21,6 @@ function f(n) {
 
 var n = 100;
 
-for (i = 1; i <= n; i++) {
+for (var i = 1; i <= n; i++) {
     f(i)();
 }
