@@ -34,6 +34,8 @@ reverseArray = function(arr) {
 };
 
 reverseArrayInPlace = function(arr) {
+
+  /* Движемся с двух сторон, меняя значения местами. Останавливаемся, когда индексы встретились. */
   var iter;
   iter = function(up, down) {
     var a;
