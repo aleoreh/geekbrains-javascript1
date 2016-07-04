@@ -22,18 +22,15 @@ function span(attrs, text) {
 }
 
 function table(attrs, elems) {
-    var res = elem('table', attrs, elems);
-    return res;
+    return elem('table', attrs, elems);
 }
 
 function tr(attrs, elems) {
-    var res = elem('tr', attrs, elems);
-    return res;
+    return elem('tr', attrs, elems);
 }
 
 function td(attrs, elems) {
-    var res = elem('td', attrs, elems);
-    return res;
+    return elem('td', attrs, elems);
 }
 
 /* Problem */
