@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#board table {
+    border-collapse: collapse;
+}
+
+#board .square {
+    width: 30px;
+    height: 33px;
+    border: 1px solid grey;
+    line-height: 30px;
+    text-align: center;
+}
+
+#board .white {
+    background: #aaa;
+}
+
+#board .black {
+    background: #888;
+}
+
+#board .w {
+    color: #fff;
+}
+
+#board .b {
+    color: #000;
+}
+
+/* #board .square::before { */
+/*     content: ' '; */
+/* } */
+
+#board .pawn::before {
+    content: 'P';
+}
+
+#board .rook::before {
+    content: 'R';
+}
+
+#board .knight::before {
+    content: 'N';
+}
+
+#board .bishop::before {
+    content: 'B';
+}
+
+#board .queen::before {
+    content: 'Q';
+}
+
+#board .king::before {
+    content: 'K';
+}
+
+#board .caption {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
