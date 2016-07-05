@@ -13,6 +13,7 @@
     border: 1px solid grey;
     line-height: 30px;
     text-align: center;
+    font-size: 26px;
 }
 
 #board .white {
@@ -35,28 +36,52 @@
 /*     content: ' '; */
 /* } */
 
-#board .pawn::before {
-    content: 'P';
+#board .w.pawn::before {
+    content: '♙';
 }
 
-#board .rook::before {
-    content: 'R';
+#board .w.rook::before {
+    content: '♖';
 }
 
-#board .knight::before {
-    content: 'N';
+#board .w.knight::before {
+    content: '♘';
 }
 
-#board .bishop::before {
-    content: 'B';
+#board .w.bishop::before {
+    content: '♗';
 }
 
-#board .queen::before {
-    content: 'Q';
+#board .w.queen::before {
+    content: '♕';
 }
 
-#board .king::before {
-    content: 'K';
+#board .w.king::before {
+    content: '♔';
+}
+
+#board .b.pawn::before {
+    content: '♟';
+}
+
+#board .b.rook::before {
+    content: '♜';
+}
+
+#board .b.knight::before {
+    content: '♞';
+}
+
+#board .b.bishop::before {
+    content: '♝';
+}
+
+#board .b.queen::before {
+    content: '♛';
+}
+
+#board .b.king::before {
+    content: '♚';
 }
 
 #board .caption {
